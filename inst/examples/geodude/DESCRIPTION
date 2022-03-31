@@ -1,0 +1,21 @@
+Package: geodude
+Title: Graveler
+Version: 0.0.0
+Author: jsmith
+Description: Your Description Here
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dashboardthemes,
+    devtools,
+    dplyr,
+    golem,
+    lubridate,
+    pins,
+    pkgload,
+    shiny,
+    shinydashboard,
+    shinydashboardPlus,
+    shinyjs,
+    shinyWidgets
+RoxygenNote: 7.1.2

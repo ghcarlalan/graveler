@@ -1,0 +1,21 @@
+Binding: graveler_dashboard
+Title: Make a Graveler Dashboard
+OpenFiles: dev/01_dev.R, dev/run_dev.R, dev/02_deploy.R
+Icon: graveler_sprite.png
+
+Parameter: pkg_name
+Widget: TextInput
+Label: Pkg Name
+Default: gravelerDash
+
+Parameter: username
+Widget: TextInput
+Label: Username
+Default: jsmith
+Position: left
+
+Parameter: title
+Widget: TextInput
+Label: Display Title
+Default: Graveler Dashboard
+Position: right

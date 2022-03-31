@@ -1,0 +1,28 @@
+---
+title: "Report Title"
+author: '[Author](mailto:email)'
+date: "`r format(Sys.time(),'%B %d, %Y @ %I:%M%p')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+
+library(tidyverse)
+library(pins)
+
+## Global options
+opts_chunk$set(
+  echo = TRUE,
+  cache = FALSE,
+  prompt = FALSE,
+  tidy = FALSE,
+  comment = NA,
+  message = FALSE,
+  warning = FALSE
+)
+```
+
+```{r}
+
+```
