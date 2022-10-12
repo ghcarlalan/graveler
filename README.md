@@ -4,7 +4,7 @@
 
 ## Overview
 
-{graveler} is a wrapper for the [{golem}](https://engineering-shiny.org/) package built by several intelligent people over at ThinkR. At a high level, {golem} turns your shiny dashboards into a package framework and allows you to build and deploy them almost exactly as you would an R package. This allows for better documentation, testing, robustness, etc. It’s an amazing guide to engineering dashboards, but the concepts themselves can be complex and technical.
+{graveler} is a wrapper for the [{golem}](https://engineering-shiny.org/) package built by several intelligent people over at ThinkR. At a high level, {golem} turns your shiny dashboards into a package framework and allows you to build and deploy them almost exactly as you would an R package. This allows for better documentation, testing, robustness, etc. It's an amazing guide to engineering dashboards, but the concepts themselves can be complex and technical.
 
 {graveler} abstracts away its technical side and set defaults for your development workflow (and sets up company branding while you are at it). You can make a working dashboard in less than a minute!
 
@@ -30,7 +30,7 @@ And you can see a small example of a dashboard with:
 graveler::geodude_example()
 ```
 
-The file structure for geodude is located in the examples/ folder.
+The file structure for `geodude` is located in the examples/ folder.
 
 <img src="man/figures/geodude.png" width="551"/>
 
